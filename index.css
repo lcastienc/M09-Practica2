@@ -1,0 +1,69 @@
+/*Estil al body, que afectara a toda la pagina web*/
+
+body {
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+
+#container {
+    border: 1px solid red;
+    width: 80%;
+}
+
+.about-us>img {}
+
+
+/*CSS del header, concretamente dek nav*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+nav a {
+    text-decoration: underline;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    color: #fff;
+}
+
+nav li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*CSS del footer*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div {
+    display: flex;
+}
+
+footer>div>img {
+    width: fit-content;
+    height: fit-content;
+    margin: 5%;
+}
+
+footer>p {
+    margin-right: 2%;
+}
